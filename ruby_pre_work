@@ -1,0 +1,10 @@
+print "hello, what is your name?"
+name = gets.chomp
+name.upcase
+
+puts "Hello my friend #{name.upcase},  I have learned simple loops which will become much more complex in my future"
+for num in 1..10
+  puts num
+  end
+
+puts "isn't that nifty?"
